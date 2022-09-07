@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About US | Fabevy</title>
+    <script src="https://kit.fontawesome.com/1019926d45.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        .logo>img {
+            width: 188px;
+        }
+
+        .dark {
+            background-color: #000;
+        }
+
+        .dark .section-title-2 h2 {
+            color: #fff;
+        }
+
+        /*--------------------------------------------------------------
+        # Clients
+        --------------------------------------------------------------*/
+        .clients {
+            overflow: hidden;
+        }
+
+        .clients .client {
+            border: solid 1px #1d1d1d;
+            padding: 30px 20px;
+            text-align: center;
+            margin: -1px -1px 0 0;
+            position: relative;
+            height: auto;
+        }
+
+        .clients .client:last-child:after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: -100vw;
+            height: 1px;
+            width: 999em;
+            background: #000;
+        }
+
+        .clients .client img {
+            filter: saturate(0);
+            transition: all 0.2s;
+        }
+
+        .clients .client.highlight-1 img,
+        .clients .client.highlight-2 img,
+        .clients .client.highlight-3 img,
+        .clients .client.highlight-4 img,
+        .clients .client:hover img {
+            filter: saturate(1);
+            transform: scale(1.1);
+        }
+        .items-box {
+            margin-bottom: 50px;
+        }
+        .items-box img {
+            max-width: 210px;
+        }
+        .items-box h4 {
+            margin-bottom: 0;
+        }
+        .banner-sec{
+            background-color: #660099;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="topheader">
+        <div class="container">
+            <div class="row">
+
+                <!-- Logo -->
+                <div class="col-6 col-sm-3 logo-sec">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/fabevy-logo-landscape.png" alt="">
+                    </a>
+                </div>
+
+                <!-- Menu toggle btn -->
+                <div class="menu-btn d-sm-none" id="menu-toggle-btn">
+                    <div class="btn-line1"></div>
+                    <div class="btn-line2"></div>
+                    <div class="btn-line3"></div>
+                </div>
+                <!-- Menu toggle btn ends -->
+
+                <!-- Header menu section -->
+                <div class="col-sm-9 d-none d-sm-block">
+                    <nav class="navbar navbar-expand-lg justify-content-end">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="values.html">Values</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="job-guarantee-programs.html">Job Guarantee Programs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Header menu section ends -->
+            </div>
+        </div>
+    </header>
+    <!-- Hader menu  mobile -->
+    <header class="header-menu-mb">
+        <div class="menu-bg"></div>
+        <nav class="navbar-mb">
+
+            <ul class="navbar-nav-mb">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="values.html">Values</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="job-guarantee-programs.html">Job Guarantee Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+
+        </nav>
+
+    </header>
+    <!-- Hader menu mobile ends-->
+
+
+    <!-- Top Header Banner -->
+    <section class="banner-sec pd-tp-100 pd-btm-100">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="banner-content about-bnr-cont text-center pd-tp-40 pd-btm-40">
+                    <h1 class="white">Fabevy transforms<br>Job-seekers to IT Professionals.</h1>
+                    <p class="mr-btm-40 white" style="font-size: 22px;font-weight: 100;font-family: 'Segoe UI Light';">You just invest your time and harvest career success.</p>
+                    <a href="https://wa.link/xamx2x" class="btn btn-secondary mr-hrz-auto">Get Career Guidance NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Header Banner Ends-->
+
+    <!-- About section -->
+    <section class="page-sec pd-tp-100 pd-btm-100">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-sm-6 pd-tp-40 pd-btm-40">
+                    <div class="sect-content abt-text">
+                        <div class="section-title-1">
+                            <h2>About Us <img src="assets/images/rocket.png" alt="abt-icon"></h2>
+                        </div>
+                        <p class="mr-btm-30">Fabevy is a community of mentors, coaches and counselor that helps Job-seekers to land in their dream career. </p>
+                        <p class="mr-btm-30">Fabevy is a team that believes, simplicity is the core of any learning and common sense is the only way any idea / concept / subject can be learnt and, more importantly, experienced. Our training modules are customized, agile and flexible.
+                        </p>
+                        <p class="mr-btm-30">At Fabevy, we love to make a Positive Impact on People's lives through skill development.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="sect-img">
+                        <img src="assets/images/img4.png" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About section Ends-->
+
+    <!-- Executive section -->
+    <section class="page-sec pd-tp-60 pd-btm-60 bg-dark">
+        <div class="container">
+
+            <div class="sect-content abt-text">
+                <div class="section-title-2">
+                    <h2>The Team</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/team1.png" alt="teams" class="rounded-circle">
+                        <h4>Velmurugan Seenipandian</h4>
+                        <p>Founder & Managing Director</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/team2.png" alt="teams" class="rounded-circle">
+                        <h4>Subha Arun</h4>
+                        <p>Director of HR Operations</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/team3.png" alt="teams" class="rounded-circle">
+                        <h4>Karthikai Kumar</h4>
+                        <p>Head of Operations</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/abbas.jpg" alt="teams" class="rounded-circle">
+                        <h4>Ameer Abbas Manthiri</h4>
+                        <p>Business Development Executive</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/balaji.jpg" alt="teams" class="rounded-circle">
+                        <h4>Balaji</h4>
+                        <p>Business Development Executive</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/shankari.jpg" alt="teams" class="rounded-circle">
+                        <h4>Sankari</h4>
+                        <p>Tech Trainer</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/hema.jpg" alt="teams" class="rounded-circle">
+                        <h4>Hema</h4>
+                        <p>Tech Trainer - Foundation</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/team4.png" alt="teams" class="rounded-circle">
+                        <h4>Monisha Rajesh</h4>
+                        <p>Quality Assurance Expert</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/team7.png" alt="teams" class="rounded-circle">
+                        <h4>Mubeena</h4>
+                        <p>Quality Assurance Expert</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/team6.png" alt="teams" class="rounded-circle">
+                        <h4>Dawoodh</h4>
+                        <p>Quality Assurance Expert</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/team5.png" alt="teams" class="rounded-circle">
+                        <h4>Selva Mariappan</h4>
+                        <p>Program Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/afrin.jpg" alt="teams" class="rounded-circle">
+                        <h4>Afrin</h4>
+                        <p>Program Coordinator</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Executive section Ends-->
+
+    <section class="achievement pd-btm-100 pd-tp-60">
+        <div class="container">
+            <div class="sect-content abt-text">
+                <div class="section-title-2">
+                    <h2>Our Journey</h2>
+                    <!-- <p class="text-center">Every milestone along the way has made each team member proud to be a Fabevy.</p> -->
+                </div>
+            </div>
+            <div class="achievement-container">
+
+                <div class="achimnt-box justify-content-start">
+                    <div class="achimnt-txt ach-txt-lt">
+                        <div class="ach-icons"><i class="fas fa-code"></i></div>
+                        <!-- <img src="assets/images/achievement/ach-icon3.jpeg" alt="Our Journey"> -->
+                        <h6>2015</h6>
+                        <p>Launched weekend skill-development program for job-seekers.</p>
+                    </div>
+                    <div class="achimnt-txt ach-txt-rt d-sm-none">
+                        <div class="ach-icons"><i class="fas fa-rocket"></i></div>
+                        <h6>2019</h6>
+                        <p>Incorporated Fabevy as a registered company.</p>
+                    </div>
+                    <div class="achimnt-txt ach-txt-lt">
+                        <div class="ach-icons"><i class="fas fa-layer-group"></i></div>
+                        <h6>2020</h6>
+                        <p>Successfully designed Full stack development program with 100% placement on completion.</p>
+                    </div>
+                    <div class="achimnt-txt ach-txt-rt d-sm-none">
+                        <div class="ach-icons"><i class="fas fa-user-friends"></i></div>
+                        <h6>2021</h6>
+                        <p>Inaugurated 30 seated skill development Centre in Tenkasi District, Tamil Nadu.</p>
+                    </div>
+                    <div class="achimnt-txt ach-txt-lt">
+                        <div class="ach-icons"><i class="fas fa-user-friends"></i></div>
+                        <h6>2022</h6>
+                        <p>Inaugurated 2500 sqft skill development Centre in OMR, Chennai.</p>
+                    </div>
+                </div>
+               
+                <div class="achimnt-box justify-content-start pd-tp-80 d-none d-sm-block">
+                    <div class="achimnt-txt ach-txt-rt">
+                        <div class="ach-icons"><i class="fas fa-rocket"></i></div>
+                        <h6>2019</h6>
+                        <p>Incorporated Fabevy as a registered company.</p>
+                    </div>
+                    <div class="achimnt-txt ach-txt-rt">
+                        <div class="ach-icons"><i class="fas fa-user-friends"></i></div>
+                        <h6>2021</h6>
+                        <p>Inaugurated 30 seated skill development Centre in Tenkasi District, Tamil Nadu.</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="our-values bg-dark pd-tp-60 pd-btm-40">
+        <div class="container">
+            <div class="sect-content abt-text">
+                <div class="section-title-2">
+                    <h2>Our Values</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center pd-btm-40 pd-tp-20">
+                <div class="col-sm-6 ">
+                    <div class="items-box-value">
+                        <div class="item-bx-img bg-yl br-clr-yl">
+                            <img src="assets/images/values1.png" alt="">
+                        </div>
+                        <div class="item-val-content">
+                            <div class="val-txt">
+                                <h4>Transparency</h4>
+                                <p>We ensure the process is as clear as possible before the start of every program.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="items-box-value">
+                        <div class="item-bx-img bg-rng br-clr-rng">
+                            <img src="assets/images/values-quality.jpg" alt="">
+                        </div>
+                        <div class="item-val-content">
+                            <div class="val-txt">
+                                <h4>Quality</h4>
+                                <p>We hire & employee highly qualified professionals in every position which ensures the top quality service.</p>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="items-box-value">
+                        <div class="item-bx-img bg-bl br-clr-bl">
+                            <img src="assets/images/values-reliability.jpg" alt="">
+                        </div>
+                        <div class="item-val-content">
+                            <div class="val-txt">
+                                <h4>Reliability</h4>
+                                <p>"Once availed our service, there will not be second thought" is our promise we guarantee our trainees.</p>    
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 ">
+                    <div class="items-box-value">
+                        <div class="item-bx-img bg-gr br-clr-gr">
+                            <img src="assets/images/values-empathy.jpg" alt="">
+                        </div>
+                        <div class="item-val-content">
+                            <div class="val-txt">
+                                <h4>Empathy</h4>
+                                <p>We ensure necessary support system is in place to make sure our trainees' could focus on the train program.</p>    
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join the Career section -->
+    <section class="page-sec pd-tp-80 pd-btm-80">
+        <div class="container">
+
+            <div class="section-title-3 text-center join-us pd-tp-40 pd-btm-40">
+                <h2>Wanna work with us?</h2>
+                <p class="text-center mr-btm-30">Come & join Fabevy and be part of the team that transforms job-seekers <br>into IT professionals.</p>
+                <a href="mailto: hello@fabevy.com" class="btn btn-secondary mr-hrz-auto">Write us about you</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Join the Career section Ends-->
+
+  <!-- Footer section -->
+  <footer class="footer bg-light">
+
+    <div class="container pd-tp-80 pd-btm-40">
+        <div class="row ft-info">
+            <div class="col-12">
+                <h5 class="text-pink font-fam-bold">Know about Fabevy</h5>
+                <p class="py-1">Fabevy provides affordable and efficient training to active jobseekers &amp; graduates who are passionate about starting their IT career. We transform jobseekers into professionals by upskilling them.</p>
+
+                <h5 class="text-pink font-fam-bold">We Stand Out because</h5>
+                <p class="py-1">We successfully provide students with intensive courses by India's top faculties and personal mentors. Fabevy strives to make the learning experience comprehensive and accessible for job-seekers. We believe in empowering every graduate who struggle to kick-start his/her career.</p>
+
+                <h5 class="text-pink font-fam-bold">Our Key Focus Areas</h5>
+                <p class="py-1">Fabevy's main focus is to make skill-development program as economical as possible for all first-gen graduates. With our affordable &amp; placement guranteed courses we have been able to provide a platform for 100s of IT career aspirants.</p>
+
+                <h5 class="text-pink font-fam-bold">What Makes Us Different</h5>
+                <p class="py-1">Fabevy strives to focus on Placement-First programs which would ensure every trainee to land in a job after the successful completion of our progam. Industry relevant curriculum and portfolio building based learning experience differntiate Fabevy from tradination training academies.</p>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="ft-nav-section pd-tp-60 pd-btm-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 ft-links">
+                    <h4>Quick Links</h4>
+                    <ul class="ft-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="job-guarantee-programs.html">Job Guarantee Programs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                    
+                </div>
+
+                <div class="col-lg-3 col-md-6 ft-links">
+                    <h4>Our Programs</h4>
+                    <ul class="ft-nav">
+                        <li><a href="job-guarantee-programs.html">Front-End Development</a></li>
+                        <li><a href="job-guarantee-programs.html">Back-End Development</a></li>
+                        <li><a href="job-guarantee-programs.html">Digital Marketing</a></li>
+                        <li><a href="job-guarantee-programs.html">Master Class Programs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 ft-links">
+                    <h4>Chennai</h4>
+                    <p>
+                        Navitha Apartments,<br>
+                        #44, 2nd St, MCN Nagar,<br>
+                        Thoraipakkam, OMR, Chennai,<br>
+                        Tamil Nadu - 600097
+                    </p>
+                    <p>
+                        <a href="tel:+91-8754011175" target="_blank">+91 - 87540 11175</a>
+                   </p>
+                </div>
+                <div class="col-lg-3 col-md-6 ft-links">
+                    <h4>Tenkasi</h4>
+                    <p>
+                        AV Complex, 10/210A, First Floor,<br>
+                        Surandai Main Road,<br>
+                        Pavoorchatram, Tenkasi,<br>
+                        Tamil Nadu - 627808
+                    </p>
+                    <p>
+                        <a href="tel:+91-9150372409" target="_blank">+91 - 91503 72409</a>
+                   </p>
+                </div>
+                <div class="col-lg-3 col-md-6 ft-links">
+                    
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="ft-copyright" style="background-color: var(--fb-color-prim); color:var(--white);border-top: solid 1px var(--white);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="copyright pd-tp-20 pd-btm-20">
+                        &copy; Copyright 2022 Fabevy Technologies. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links mt-3 text-end">
+                        <a href="https://www.linkedin.com/company/fabevy" class="" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/fabevy" class="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/fabevy" class="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/channel/UCg_MZdm6-HbRx5cs3LpezsQ" class="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.042" height="33.666" viewBox="0 0 42.042 33.666">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #495872;
+      }
+    </style>
+  </defs>
+  <g id="line-chart_1_" data-name="line-chart (1)" transform="translate(0 -51)">
+    <g id="Group_926" data-name="Group 926" transform="translate(0 51)">
+      <g id="Group_925" data-name="Group 925">
+        <path id="Path_1779" data-name="Path 1779" class="cls-1" d="M40.81,51H1.232A1.232,1.232,0,0,0,0,52.232v31.2a1.232,1.232,0,0,0,1.232,1.232H40.81a1.232,1.232,0,0,0,1.232-1.232v-31.2A1.232,1.232,0,0,0,40.81,51ZM39.578,82.2H2.463V60.853H39.578Zm0-23.813H2.463V53.463H39.578Z" transform="translate(0 -51)"/>
+      </g>
+    </g>
+    <g id="Group_928" data-name="Group 928" transform="translate(25.845 54.695)">
+      <g id="Group_927" data-name="Group 927">
+        <path id="Path_1780" data-name="Path 1780" class="cls-1" d="M320.26,96h-4.27a1.232,1.232,0,1,0,0,2.463h4.27a1.232,1.232,0,1,0,0-2.463Z" transform="translate(-314.758 -96)"/>
+      </g>
+    </g>
+    <g id="Group_930" data-name="Group 930" transform="translate(34.139 54.284)">
+      <g id="Group_929" data-name="Group 929">
+        <circle id="Ellipse_88" data-name="Ellipse 88" class="cls-1" cx="1.642" cy="1.642" r="1.642"/>
+      </g>
+    </g>
+    <g id="Group_932" data-name="Group 932" transform="translate(8.412 64.879)">
+      <g id="Group_931" data-name="Group 931">
+        <path id="Path_1781" data-name="Path 1781" class="cls-1" d="M127.394,220.488a1.232,1.232,0,0,0-1.73-.2l-10.032,7.91-6.9-3.106a1.232,1.232,0,0,0-1.479.369l-4.551,5.876a1.232,1.232,0,1,0,1.947,1.508l3.957-5.108,6.7,3.014a1.232,1.232,0,0,0,1.268-.156l10.619-8.372A1.232,1.232,0,0,0,127.394,220.488Z" transform="translate(-102.44 -220.019)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.253" height="35.282" viewBox="0 0 35.253 35.282">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b2b2b2;
+      }
+    </style>
+  </defs>
+  <g id="bar-chart" transform="translate(-0.213)">
+    <g id="Group_459" data-name="Group 459" transform="translate(0.213 16.171)">
+      <g id="Group_458" data-name="Group 458">
+        <path id="Path_949" data-name="Path 949" class="cls-1" d="M8.3,234.667H.948a.735.735,0,0,0-.735.735v17.641a.735.735,0,0,0,.735.735H8.3a.735.735,0,0,0,.735-.735V235.4A.734.734,0,0,0,8.3,234.667Z" transform="translate(-0.213 -234.667)"/>
+      </g>
+    </g>
+    <g id="Group_461" data-name="Group 461" transform="translate(13.414)">
+      <g id="Group_460" data-name="Group 460">
+        <path id="Path_950" data-name="Path 950" class="cls-1" d="M199.871,0h-7.35a.735.735,0,0,0-.735.735V34.547a.735.735,0,0,0,.735.735h7.35a.735.735,0,0,0,.735-.735V.735A.735.735,0,0,0,199.871,0Z" transform="translate(-191.786)"/>
+      </g>
+    </g>
+    <g id="Group_463" data-name="Group 463" transform="translate(26.645 7.35)">
+      <g id="Group_462" data-name="Group 462">
+        <path id="Path_951" data-name="Path 951" class="cls-1" d="M391.871,106.667h-7.35a.735.735,0,0,0-.735.735v26.461a.735.735,0,0,0,.735.735h7.35a.735.735,0,0,0,.735-.735V107.4A.735.735,0,0,0,391.871,106.667Z" transform="translate(-383.786 -106.667)"/>
+      </g>
+    </g>
+  </g>
+</svg>

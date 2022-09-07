@@ -1,0 +1,39 @@
+<svg id="check-list" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #495872;
+      }
+    </style>
+  </defs>
+  <g id="Group_317" data-name="Group 317">
+    <g id="Group_316" data-name="Group 316">
+      <path id="Path_504" data-name="Path 504" class="cls-1" d="M18.4,10.733a7.667,7.667,0,1,1-7.667-7.667V0A10.733,10.733,0,1,0,21.467,10.733Z"/>
+    </g>
+  </g>
+  <g id="Group_319" data-name="Group 319" transform="translate(24.533)">
+    <g id="Group_318" data-name="Group 318">
+      <path id="Path_505" data-name="Path 505" class="cls-1" d="M283.8,0a10.733,10.733,0,1,0,10.733,10.733A10.746,10.746,0,0,0,283.8,0Zm0,18.4a7.667,7.667,0,1,1,7.667-7.667A7.675,7.675,0,0,1,283.8,18.4Z" transform="translate(-273.066 0)"/>
+    </g>
+  </g>
+  <g id="Group_321" data-name="Group 321" transform="translate(0 24.533)">
+    <g id="Group_320" data-name="Group 320">
+      <path id="Path_506" data-name="Path 506" class="cls-1" d="M18.4,283.8a7.667,7.667,0,1,1-7.667-7.667v-3.067A10.733,10.733,0,1,0,21.467,283.8Z" transform="translate(0 -273.067)"/>
+    </g>
+  </g>
+  <g id="Group_323" data-name="Group 323" transform="translate(24.533 24.533)">
+    <g id="Group_322" data-name="Group 322">
+      <path id="Path_507" data-name="Path 507" class="cls-1" d="M283.8,273.067A10.733,10.733,0,1,0,294.533,283.8,10.746,10.746,0,0,0,283.8,273.067Zm0,18.4a7.667,7.667,0,1,1,7.667-7.667A7.675,7.675,0,0,1,283.8,291.467Z" transform="translate(-273.066 -273.067)"/>
+    </g>
+  </g>
+  <g id="Group_325" data-name="Group 325" transform="translate(6.583 1.983)">
+    <g id="Group_324" data-name="Group 324">
+      <path id="Path_508" data-name="Path 508" class="cls-1" d="M85.534,22.067l-8.116,8.116L75.435,28.2l-2.168,2.168,3.067,3.067a1.532,1.532,0,0,0,2.168,0l9.2-9.2Z" transform="translate(-73.267 -22.067)"/>
+    </g>
+  </g>
+  <g id="Group_327" data-name="Group 327" transform="translate(6.583 26.516)">
+    <g id="Group_326" data-name="Group 326">
+      <path id="Path_509" data-name="Path 509" class="cls-1" d="M85.535,295.134l-8.116,8.116-1.983-1.983-2.168,2.168,3.067,3.067a1.532,1.532,0,0,0,2.168,0l9.2-9.2Z" transform="translate(-73.268 -295.134)"/>
+    </g>
+  </g>
+</svg>

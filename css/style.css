@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.under-construction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.under-construction-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.construction-info{
+    width: 100%;
+    text-align: center;
+}
+.construction-info .logo{
+    width: 250px;
+}
+.hrline{
+    width: 50px;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #660099;
+    border-radius: 25px;
+}
+.construction-info h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20%;
+}
+
+.construction-info a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    background-color: #660099;
+    background-image: linear-gradient(to right, #944cb7 , #660099);
+    box-shadow: 0px 3px 7px #bb53ef;
+}
+
+.links{
+    margin-top: 20%;   
+    display: flex;
+    align-items: centers;
+}
+.links a {
+    display: inline-block;
+    margin: 0 3px;
+    text-decoration: none;
+    color: #660099;
+    font-size: 24px;
+}
+.icofont-youtube{
+    font-size: 26px;
+}

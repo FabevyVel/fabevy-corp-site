@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabevy | Values</title>
+    <script src="https://kit.fontawesome.com/1019926d45.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        .logo>img {
+            width: 188px;
+        }
+
+        .dark {
+            background-color: #000;
+        }
+
+        .dark .section-title-2 h2 {
+            color: #fff;
+        }
+
+        /*--------------------------------------------------------------
+        # Clients
+        --------------------------------------------------------------*/
+        .clients {
+            overflow: hidden;
+        }
+
+        .clients .client {
+            border: solid 1px #1d1d1d;
+            padding: 30px 20px;
+            text-align: center;
+            margin: -1px -1px 0 0;
+            position: relative;
+            height: auto;
+        }
+
+        .clients .client:last-child:after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: -100vw;
+            height: 1px;
+            width: 999em;
+            background: #000;
+        }
+
+        .clients .client img {
+            filter: saturate(0);
+            transition: all 0.2s;
+        }
+
+        .clients .client.highlight-1 img,
+        .clients .client.highlight-2 img,
+        .clients .client.highlight-3 img,
+        .clients .client.highlight-4 img,
+        .clients .client:hover img {
+            filter: saturate(1);
+            transform: scale(1.1);
+        }
+        .items-box {
+            margin-bottom: 50px;
+        }
+        .items-box img {
+            max-width: 210px;
+        }
+        .items-box h4 {
+            margin-bottom: 0;
+        }
+        .banner-sec{
+            background-color: #660099;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="topheader">
+        <div class="container">
+            <div class="row">
+
+                <!-- Logo -->
+                <div class="col-6 col-sm-3 logo-sec">
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/fabevy-logo-landscape.png" alt="">
+                    </a>
+                </div>
+
+                <!-- Menu toggle btn -->
+                <div class="menu-btn d-sm-none" id="menu-toggle-btn">
+                    <div class="btn-line1"></div>
+                    <div class="btn-line2"></div>
+                    <div class="btn-line3"></div>
+                </div>
+                <!-- Menu toggle btn ends -->
+
+                <!-- Header menu section -->
+                <div class="col-sm-9 d-none d-sm-block">
+                    <nav class="navbar navbar-expand-lg justify-content-end">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="values.html">Values</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="job-guarantee-programs.html">Job Guarantee Programs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>                       
+                    </nav>
+                </div>
+                <!-- Header menu section ends -->
+            </div>
+        </div>
+    </header>
+    <!-- Hader menu  mobile -->
+    <header class="header-menu-mb">
+        <div class="menu-bg"></div>
+        <nav class="navbar-mb">
+           
+            <ul class="navbar-nav-mb">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="values.html">Values</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="job-guarantee-programs.html">Job Guarantee Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                </li>
+            </ul> 
+           
+           
+        </nav>
+                
+    </header>
+    <!-- Hader menu mobile ends-->
+
+    <!-- Top Header Banner -->
+    <section class="banner-sec pd-tp-100 pd-btm-100">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="banner-content about-bnr-cont text-center pd-tp-40 pd-btm-40">
+                    <h1 class="white">Help 1 billion people navigate their <br/>careers.</h1>
+                    <p class="mr-btm-40 white">We know no hero can accomplish this alone, so we are looking for a diverse group of leaders to <br/>join us on our mission.</p>
+                    <button type="button" class="btn btn-secondary mr-hrz-auto">Check Open Positions</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Header Banner Ends-->
+
+    <!-- Our mission section -->
+    <section class="page-sec pd-tp-100 pd-btm-100" >
+        <div class="container ">
+            <div class="row pd-btm-80">
+                
+                <div class="col-sm-5 pd-btm-40">
+                    <div class="sect-content">
+                        <div class="section-title-1">
+                            <h6 class="text-uppercase">OUR MISSION</h6>
+                            <h2>To connect the World’s talent to their next opportunity</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="sect-content">
+                        <p class="mr-btm-30">Ruben, Artur, and Timur started Career Karma in 2018 after experiencing first hand the struggles of switching into the technology industry from non-traditional backgrounds. They recognized that many in-demand jobs require hands-on experience. The three friends resolved to use peer mentorship to empower others pursuing new careers through technical bootcamps.</p>
+                        
+                        <p class="mr-btm-30">In the last decade, bootcamps have proven that most employers value specialized skills. As technology continues to disrupt traditional industries, workers are choosing rapid reskilling programs to increase their earning potential and career security.</p>
+
+                        <p>With this in mind, Career Karma’s vision is to help one billion people over the next 10 years and to connect the world’s talent to their next opportunities.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Our mission section Ends-->
+
+    <!-- How we act section -->
+    <section class="page-sec pd-btm-60 bg-light" >
+        <div class="container">
+            <div class="row align-items-center " >
+                <div class="col-sm-7 pd-tp-60 ">
+                    <div class="sect-content">
+                        <div class="section-title-1 pd-btm-20">
+                            <h2>How we act</h2>
+                        </div>
+                        <div class="sec-content-list">
+                            <div class="list-of-cont">
+                                <span class="list-icon"></span>
+                                <p><strong>Take initiative and be proactive.</strong> We aren’t afraid to take on responsibilities and make a positive impact in all we set out to do.</p>
+                            </div>
+                            <div class="list-of-cont">
+                                <span class="list-icon"></span>
+                                <p><strong>Listen to understand and communicate effectively.</strong> We treat each other with respect and empathy.</p>
+                            </div>
+                            <div class="list-of-cont">
+                                <span class="list-icon"></span>
+                                <p><strong>Hit targets with momentum.</strong> We stay focused on our goals and move toward accomplishing them with speed.</p>
+                            </div>
+
+                        </div>
+                        <button type="button" class="btn btn-link mr-tp-30">LEARN MORE ABOUT US <i class="fas fa-long-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="sect-img act-img" >
+                        <img src="assets/images/img6.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How we act section Ends-->
+
+
+     <!-- How We Decide section -->
+    <section class="page-sec pd-tp-80 pd-btm-60 " >
+        <div class="container">
+            
+            <div class="sect-content abt-text">
+                <div class="section-title-2">
+                    <h2>How We Decide</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center pd-btm-40 pd-tp-20">
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/deside_icon_1.png" class="img-small" alt="teams">
+                        <h4>Prioritize our users.</h4>
+                        <p>We obsess over delivering a magical <br/>experience to all our users.</p>
+                    </div>    
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/deside_icon_2.png" class="img-small" alt="teams">
+                        <h4>Put first things first.</h4>
+                        <p>We prioritize effectively to focus on the 20% that <br/>drives 80% of the results.</p>
+                    </div>    
+                </div>
+                <div class="col-sm-4">
+                    <div class="items-box">
+                        <img src="assets/images/deside_icon_3.png" class="img-small"alt="teams">
+                        <h4>Do more with less.</h4>
+                        <p>We are creative and resourceful in <br/>getting things done.</p>
+                    </div>    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- How We Decide section Ends-->
+
+    <!-- How we act section -->
+    <section class="page-sec pd-tp-80 pd-btm-60" >
+        <div class="container">
+            <div class="row align-items-center" >
+                <div class="col-sm-5">
+                    <div class="sect-img">
+                        <img src="assets/images/img5.jpg" class="img-fluid wtd-90">
+                    </div>
+                </div>
+                <div class="col-sm-7 pd-tp-60 ">
+                    <div class="sect-content">
+                        <div class="section-title-1 pd-btm-20">
+                            <h2>How we win <img src="assets/images/rocket.png" alt="abt-icon"></h2>
+                        </div>
+                        <div class="sec-content-list">
+                            <div class="list-of-cont">
+                                <span class="list-icon"></span>
+                                <p><strong>Always be learning.</strong> We embrace lifelong learning and apply it to our work.</p>
+                            </div>
+                            <div class="list-of-cont">
+                                <span class="list-icon"></span>
+                                <p><strong>Enjoy the process.</strong> We have fun because the journey to accomplishing our mission is a marathon, not a sprint.</p>
+                            </div>
+                            <div class="list-of-cont">
+                                <span class="list-icon"></span>
+                                <p><strong>Dare to dream.</strong> True innovation takes courage and willingness to challenge the status quo.</p>
+                            </div>
+
+                        </div>
+                        <button type="button" class="btn btn-link mr-tp-30">LEARN MORE ABOUT US <i class="fas fa-long-arrow-right"></i></button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- How we act section Ends-->
+
+
+    <!-- Join the Career section -->
+    <section class="page-sec pd-tp-80 pd-btm-80" >
+        <div class="container">
+            
+            <div class="section-title-3 join-us pd-tp-40 pd-btm-40">
+                <h2>Join the Career Karma team</h2>
+                <p class="text-center mr-btm-30">Join Career Karma and be part of the team building a platform democratizing access to <br>career advancement</p>
+                <button type="button" class="btn btn-secondary mr-hrz-auto">Check Open Positions</button>
+            </div>
+                
+        </div>
+    </section>
+    <!-- Join the Career section Ends-->
+
+    <!-- Footer section -->
+    <footer class="footer bg-light">
+
+        <div class="container pd-tp-80 pd-btm-40">
+            <div class="row ft-info">
+                <div class="col-12">
+                    <h5 class="text-pink font-fam-bold">Know about Fabevy</h5>
+                    <p class="py-1">Fabevy provides affordable and efficient training to active jobseekers &amp; graduates who are passionate about starting their IT career. We transform jobseekers into professionals by upskilling them.</p>
+
+                    <h5 class="text-pink font-fam-bold">We Stand Out because</h5>
+                    <p class="py-1">We successfully provide students with intensive courses by India's top faculties and personal mentors. Fabevy strives to make the learning experience comprehensive and accessible for job-seekers. We believe in empowering every graduate who struggle to kick-start his/her career.</p>
+
+                    <h5 class="text-pink font-fam-bold">Our Key Focus Areas</h5>
+                    <p class="py-1">Fabevy's main focus is to make skill-development program as economical as possible for all first-gen graduates. With our affordable &amp; placement guranteed courses we have been able to provide a platform for 100s of IT career aspirants.</p>
+
+                    <h5 class="text-pink font-fam-bold">What Makes Us Different</h5>
+                    <p class="py-1">Fabevy strives to focus on Placement-First programs which would ensure every trainee to land in a job after the successful completion of our progam. Industry relevant curriculum and portfolio building based learning experience differntiate Fabevy from tradination training academies.</p>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="ft-nav-section pd-tp-60 pd-btm-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 ft-links">
+                        <h4>Quick Links</h4>
+                        <ul class="ft-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <!-- <li><a href="courses.html">Job Guarantee Programs</a></li> -->
+                            <li><a href="#">Franchise opportunities</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 ft-links">
+                        <h4>Our Programs:</h4>
+                        <ul class="ft-nav">
+                            <li><a href="#">Front-End Development</a></li>
+                            <li><a href="#">Back-End Development</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Master Class Programs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 ft-links">
+                        <h4>Contact Us:</h4>
+                        <p>
+                            Groom India Salon & Spa Pvt.Ltd<br>
+                            No 98, Ganga Griha, 1st Road,<br>
+                            Nungambakkam High Road,<br>
+                            Chennai - 600034,<br>
+                            Tamil Nadu - India 
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ft-links">
+                        <h4>Get In Touch:</h4>
+                        <p>
+                             +1 5589 55488 55<br>
+                             info@example.com<br>
+                        </p>
+                        <!-- <a href="#" class="ft-logo"><img src="assets/images/fabevy-logo-landscape.png" alt=""></a> -->
+                        <!-- <p><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em>
+                        </p> -->
+                        <div class="social-links mt-4">
+                            <a href="#" class=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="ft-copyright" style="background-color: var(--fb-color-prim); color:var(--white);border-top: solid 1px var(--white);">
+            <div class="container">
+                <p class="copyright pd-tp-20 pd-btm-20">
+                    &copy; Copyright 2022 Fabevy Technologies. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
