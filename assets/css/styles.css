@@ -54,7 +54,7 @@
 .menu-btn {
   position: absolute;
   right: 10px;
-  top: 18px;
+  top: 50%;
   width: 45px;
   height: 40px;
   background-color: transparent;
@@ -64,6 +64,7 @@
   align-items: center;
   flex-wrap: wrap;
   cursor: pointer;
+  transform: translateY(-50%);
 }
 
 .btn-line1,
@@ -1220,4 +1221,66 @@
 /* ---- Review section --- */
 #review-slider{
   margin-bottom: 80px;
+}
+
+
+
+/* ------ Careers section ------ */
+.fb-imgs {
+  display: flex;
+  justify-content: flex-start;
+}
+.fb-imgs .imgs{
+  flex-grow: 1;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  min-height: 150px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.h-200{
+  height: 200px;
+}
+
+
+
+
+.career-box{
+  position: relative;
+  padding: 20px 25px;
+    background: #fff;
+    box-shadow: 2px 4px 13px rgb(17 121 239 / 10%);
+    margin-bottom: 40px;
+}
+.career-box h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+.career-box p i{
+  margin-right: 5px;
+}
+.career-box .cr-periods{
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+.cr-periods li{
+  display: inline-block;
+  font-size: 14px;
+  color: #999;
+  margin-right: 10px;
+}
+.cr-periods li i{
+  margin-right: 5px;
+}
+.career-box .cr-icon{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.career-box .btn{
+  margin-top: 20px;
 }
